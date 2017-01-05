@@ -9,24 +9,25 @@ Celsius= F - 32 * 1.8
 
 print("The temperature in Celsius is: ", Celsius)
 
-
 #Calc. 2, Original problem?
 
 #Username generator, Takes first three letters of name, last name and age to
 #Generate username
 
-First= input("Please type in your First name: ")
+print("Username Generator")
 
-Last= input("Please type in your Last name: ")
+FirstInput = input("Please type in your First name: ")
+First = FirstInput[0,1,2]
 
-Last = a[0,1,2]
+LastInput= input("Please type in your Last name: ")
+Last = LastInput[0,1,2]
 
-Age= input("Please input your age: ")
-A= float(Age)
+AgeInput= input("Please input your age: ")
+Age= float(AgeInput)
 
-#print(First(len(2)) + Last(len(2)) + A)
+print("Your generated username is ", First + Last + Age)
+
 #Come back to this
-
 '''
 In the end the program should display the following
 print("HenRam17")
